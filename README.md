@@ -6,7 +6,7 @@ A timeit decorator for python functions
 
 ### Example Usage:
 Replaces the following code:
-```
+```python
 from timeit import default_timer as timer
 
 def my_example_func(*args,**kwargs):
@@ -21,7 +21,7 @@ useful_info_str = "It took this many seconds"
 print(useful_info_str, end-start)
 ```
 With:
-```
+```python
 from ctimeit import ctimeit
 
 @ctimeit
