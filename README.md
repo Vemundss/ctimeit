@@ -33,7 +33,7 @@ def my_example_func(*args,**kwargs):
 
 ### Links to Project
 Github link: 
-https://github.com/Vemundss/rat-simulator
+https://github.com/Vemundss/ctimeit
 
 PyPi link:
-https://pypi.org/project/rat-simulator/
+https://pypi.org/project/ctimeit/
