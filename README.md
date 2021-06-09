@@ -10,7 +10,7 @@ Replaces the following code:
 from timeit import default_timer as timer
 
 def my_example_func(*args,**kwargs):
-  # do some calculations and store in result
+  """do some calculations and store in result"""
   return result
 
 start = timer()
@@ -26,7 +26,7 @@ from ctimeit import ctimeit
 
 @ctimeit
 def my_example_func(*args,**kwargs):
-  # do some calculations and store in result
+  """do some calculations and store in result"""
   return result
 `
 
